@@ -1,0 +1,122 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: medium;
+
+ }
+ 
+ 
+
+ 
+ nav {
+   width: 100%;
+   height: 9vh;
+   background: rgba(159, 147, 149, 0.897);
+   color: rgb(119, 65, 65);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+ }
+ 
+ nav .logo {
+   width: 25%;
+   text-align: left;
+   mix-blend-mode: multiply;
+}
+ 
+ nav .menu {
+   width: 40%;
+   display: flex;
+   
+ }
+ 
+ nav .menu a {
+   width: 25%;
+   text-decoration: none;
+   color: rgb(129, 66, 66);
+   font-weight: bolder;
+ }
+
+ body{
+   background-color: rgb(112, 88, 88);
+ }
+ 
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background: rgb(248, 251, 249);
+    
+    
+ }
+ 
+ .container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 2rem;
+    
+
+ }
+ 
+ .container .title{
+    font-size: 3.5rem;
+    color:rgba(8, 7, 7, 0.948);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: left;
+    
+    
+ }
+ 
+ .container .products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+ }
+ 
+ .container .products-container .product{
+    text-align: center;
+    padding:3rem 2rem;
+    background: rgb(244, 244, 250);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid rgb(166, 7, 7);
+    outline-offset: -1.5rem;
+    cursor: pointer;
+    
+    
+
+ }
+ 
+ .container .products-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+ }
+ 
+ .container .products-container .product img{
+    height: 20rem;
+ }
+ 
+ .container .products-container .product:hover img{
+    transform: scale(.9);
+ }
+ 
+ .container .products-container .product h3{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:#444;
+ }
+ 
+ .container .products-container .product:hover h3{
+    color:#150ae7;
+ }
+ 
+ .container .products-container .product .price{
+    font-size: 2rem;
+    color:#444;
+ }
+ 
